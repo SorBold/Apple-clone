@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "inter", serif;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  width: 100vw;
+  height: 44px;
+  position: fixed;
+  z-index: 10;
+  column-gap: 24px;
+  color: black;
+  background-color: white;
+}
+.header_icon {
+  width: 30px;
+  height: 44px;
+}
+.header_link {
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.donation-banner {
+  width: 100vw;
+  height: 49px;
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 500;
+  margin-top: 44px;
+  text-align: center;
+}
