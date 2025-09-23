@@ -8,7 +8,6 @@
 .center {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .align center {
   display: flex;
@@ -47,51 +46,87 @@
   padding: 16px 36px;
   text-align: center;
 }
-.hero__container {
+.hero_container {
   width: 100vw;
   height: 692px;
   text-align: center;
   margin-bottom: 12px;
   flex-direction: column;
   background-size: cover;
+  background-repeat: no-repeat;
   padding-block: 55px 36px;
   background-position: center;
-  background-repeat: no-repeat;
 }
-.hero__container--iphone-16-pro {
-  background-size: cover;
+.align center {
+  display: flex;
+  align-items: center;
+}
+.hero_container--iphone-16-pro {
+  background-image: url(./Figure.png);
 }
 .hero-title {
   font-size: 52px;
-  color: #f5f5f7;
+  color: rgb(245, 245, 247);
   font-weight: 600;
-}
-.hero-title--dark {
-  color: #000;
 }
 .hero-subhead {
   font-size: 24px;
-  color: #f5f5f7;
-  font-weight: 400;
-  margin-block: 16px 20px;
+    color: rgb(245, 245, 247);
+    font-weight: 400;
+    margin-block: 16px 20px;
 }
-.hero-buttons, .product-buttons {
+.hero-buttons {
   display: flex;
   column-gap: 16px;
+}
+.button-primary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 113, 227);
 }
 .button {
   cursor: pointer;
   padding: 12px 20px;
   border-radius: 999px;
   text-decoration: none;
-  border: solid #0071e3 1px;
-}
-.button-primary {
-  color: #fff;
-  background-color: #0071e3;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 113, 227);
+  border-image: initial;
 }
 .button-secondary {
   color: #2997ff;
   border: solid #2997ff 1px;
   background-color: transparent;
+}
+.hero_container-iphone-16-pro {
+  background-image: url(./Figure\ \(1\).png);
+}
+.hero_container--gift-magic {
+  justify-content: flex-end;
+  background-image: url(./Figure\ \(2\).png);
+}
+.hero-title--dark {
+  color: #000;
+}
+.hero-subhead--dark {
+  color: #000;
+}
+.product-container {
+  gap: 12px;
+  display: grid;
+  margin-bottom: 12px;
+  grid-auto-rows: 580px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.product {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 48px 58px;
+  background-size: cover;
+  background-image: url(Figure\ \(3\).png);
+}
+.product-bottom {
+  justify-content: flex-start;
 }
