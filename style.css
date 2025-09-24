@@ -240,3 +240,20 @@
   color: #FFFFFF;
   font-size: 20px;
 }
+.bullets {
+  display: flex;
+  margin-top: 14px;
+  justify-content: center;
+}
+.bullet {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+  background-color: #0000006b;
+  transition: opacity ease 250ms;
+}
+.bullet:hover {
+  opacity: 1;
+}
