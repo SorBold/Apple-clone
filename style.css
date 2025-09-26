@@ -16,7 +16,7 @@
 }
 .header {
   width: 100vw;
-  height: 44px;
+  /* height: 44px; */
   top: 0;
   position: fixed;
   z-index: 10;
@@ -41,7 +41,7 @@
   text-decoration: none;
 }
 .header-link {
-  display: block;
+  display: flex;
   gap: 24px;
 }
 .donation-banner {
@@ -102,7 +102,6 @@
   text-decoration: none;
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(0, 113, 227);
   border-image: initial;
 }
 .button-secondary {
@@ -110,7 +109,7 @@
   border: solid #2997ff 1px;
   background-color: transparent;
 }
-.hero_container-iphone-16-pro {
+.hero_container-iphone-16 {
   background-image: url(./Figure\ \(1\).png);
 }
 .hero_container--gift-magic {
@@ -134,9 +133,11 @@
   display: flex;
   text-align: center;
   align-items: center;
+  column-gap: 10px;
   flex-direction: column;
   padding-block: 48px 58px;
   background-size: cover;
+  background-position: center;
   background-image: url(Figure\ \(3\).png);
 }
 .product-bottom {
@@ -164,6 +165,8 @@
   padding-block: 2px 16px;
 }
 .product-subheads {
+  height: 40px;
+  margin-top: 10px;
   color: #1d1d1f;
 }
 .producte {
@@ -191,6 +194,10 @@
 }
 .product-subhead--dark {
   color: #1d1d1f;
+}
+.product-intros {
+  display: flex;
+  justify-content: flex-end;
 }
 .producet {
   display: flex;
@@ -393,9 +400,34 @@
 
   }
 }
-@media (max-width: 1000px) {
+.dot_button {
+  width: 100vw;
+  height: 45px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.dot_buttons {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 1024px) {
   .header {
     height: 48px;
     justify-content: space-between;
+  }
+  .header-link {
+    display: none;
+  }
+  .header_icon--image--menu {
+    display: block;
+  }
+}
+@media(max-width: 450px) {
+  .hero_container--iphone-16-pro {
+    background-image: url(apple.jpg);
+  }
+  .hero_container-iphone-16 {
+    background-image: url(apple1.jpg);
   }
 }
