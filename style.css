@@ -16,7 +16,7 @@
 }
 .header {
   width: 100vw;
-  /* height: 44px; */
+  height: 44px;
   top: 0;
   position: fixed;
   z-index: 10;
@@ -31,18 +31,11 @@
 .header_icons {
   column-gap: 24px;
 }
-.header_icon--image--menu {
-  display: none;
-}
 .header_link {
   font-size: 12px;
   font-weight: 400;
   white-space: nowrap;
   text-decoration: none;
-}
-.header-link {
-  display: flex;
-  gap: 24px;
 }
 .donation-banner {
   width: 100vw;
@@ -102,6 +95,7 @@
   text-decoration: none;
   border-width: 1px;
   border-style: solid;
+  border-color: rgb(0, 113, 227);
   border-image: initial;
 }
 .button-secondary {
@@ -109,7 +103,7 @@
   border: solid #2997ff 1px;
   background-color: transparent;
 }
-.hero_container-iphone-16 {
+.hero_container-iphone-16-pro {
   background-image: url(./Figure\ \(1\).png);
 }
 .hero_container--gift-magic {
@@ -133,11 +127,9 @@
   display: flex;
   text-align: center;
   align-items: center;
-  column-gap: 10px;
   flex-direction: column;
   padding-block: 48px 58px;
   background-size: cover;
-  background-position: center;
   background-image: url(Figure\ \(3\).png);
 }
 .product-bottom {
@@ -165,8 +157,6 @@
   padding-block: 2px 16px;
 }
 .product-subheads {
-  height: 40px;
-  margin-top: 10px;
   color: #1d1d1f;
 }
 .producte {
@@ -194,10 +184,6 @@
 }
 .product-subhead--dark {
   color: #1d1d1f;
-}
-.product-intros {
-  display: flex;
-  justify-content: flex-end;
 }
 .producet {
   display: flex;
@@ -288,29 +274,24 @@
   width: 100%;
   display: flex;
   position: relative;
-  z-index: 20;
   column-gap: 20px;
-  transition: filter 0.5s;
-  min-width: calc(var(--width) * var(--quantity));
-  animation: slider 10s linear infinite;
-
 }
-
+.slider:hover {
+  filter: grayscale(1);
+  animation-play-state: paused;
+}
 .slider-item {
-  /* left: 100%; */
+  left: 100%;
   position: relative;
-  width: var(--width);
-  height: var(--heigth);
+  width: 417px;
+  height: 236px;
+  transition: 0.5s;
   background-color: rgb(20, 40, 56);
+  animation: slider 60s linear infinite;
+  animation-delay: 2s;
 }
 .slider-item:hover {
   filter: grayscale(0);
-  /* animation-play-state: paused; */
-
-}
-.slider:hover {
-  /* filter: grayscale(00.5s); */
-  animation-play-state: paused;
 }
 .slider-content {
   width: 100%;
@@ -323,25 +304,19 @@
 }
 
 .slider-image-small {
-  width: 417px;
-  height: 236px;
+  width: 196px;
+  height: 196px;
   overflow: hidden;
   margin-left: 15px;
   border-radius: 8px;
-  background-color: #1B2632;
-}
-.slider-image-small img {
-  width: 196px;
-  height: 196px;
-  margin-top: 15px;
 }
 .slider-image-full {
   width: 100%;
   height: 100%;
 }
 .slider-image-full img {
-  width: 417px;
-  height: 236px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .slider-overlay {
@@ -353,19 +328,6 @@
   justify-content: center;
   background-color: rgb(0, 0, 0, 0.2);
 }
-.slider-titles {
-  left: 40px;
-  bottom: 35px;
-  position: absolute;
-  display: flex;
-}
-.slider-title {
-  color: #f5f5f7;
-  font-size: 10px;
-}
-.slider-image {
-  background-image: cover;
-}
 .slider-button {
   opacity: 0;
   border: none;
@@ -374,11 +336,13 @@
   border-radius: 999px;
   background-color: white;
 }
-.slider-overlay:hover {
+.slider-item:hover 
+.slider-overlay {
   opacity: 1;
   transition: all 0.3s ease-in;
-} 
-.slider-button:hover {
+}
+.slider-item:hover 
+.slider-button{
   opacity: 1;
   margin-top: 0;
   transition: all 0.3s ease;
@@ -392,42 +356,9 @@
 }
 @keyframes slider {
   from {
-    transform: translateX(0);
+    left: 100%;
   }
   to {
-    /* left: calc(var(--width) * -1);   */
-    transform: translateX(-50%);
-
-  }
-}
-.dot_button {
-  width: 100vw;
-  height: 45px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.dot_buttons {
-  width: 24px;
-  height: 24px;
-}
-@media(max-width: 1024px) {
-  .header {
-    height: 48px;
-    justify-content: space-between;
-  }
-  .header-link {
-    display: none;
-  }
-  .header_icon--image--menu {
-    display: block;
-  }
-}
-@media(max-width: 450px) {
-  .hero_container--iphone-16-pro {
-    background-image: url(apple.jpg);
-  }
-  .hero_container-iphone-16 {
-    background-image: url(apple1.jpg);
+    left: calc(var(--width) * -1);
   }
 }
