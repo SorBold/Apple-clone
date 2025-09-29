@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "inter", serif;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.align center {
+  display: flex;
+  align-items: center;
+}
+.header {
+  width: 100vw;
+  height: 44px;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+  column-gap: 24px;
+  color: black;
+  background-color: #f5f5f7;
+}
+.header_icon {
+  width: 30px;
+  height: 44px;
+}
+.header_icons {
+  column-gap: 24px;
+}
+.header_link {
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.header-link {
+    display: flex;
+    gap: 24px;
+}
+.donation-banner {
+  width: 100vw;
+  height: 49px;
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 500;
+  margin-top: 44px;
+  padding: 16px 36px;
+  text-align: center;
+}
+.hero {
+    width: 100vw;
+    height: 179px;
+}
+.hero-box {
+    width: 100vw;
+    height: 100px;
+    padding-left: 100px;
+}
+.hero-head {
+    width: 655px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.hero-boxes {
+font-family: "Inter";
+font-weight: 700;
+font-style: Bold;
+font-size: 44px;
+  color: #0090F7;
+  background-image: linear-gradient(45deg, #0090F7 23%, #BA62FC 100%, #F2416B 200%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+line-height: 52.01px;
+letter-spacing: 0px;
+vertical-align: middle;
+}
+.hero-boxer {
+font-family: "Inter";
+font-weight: 700;
+font-style: Bold;
+font-size: 44px;
+line-height: 52.01px;
+letter-spacing: 0px;
+vertical-align: middle;
+}
