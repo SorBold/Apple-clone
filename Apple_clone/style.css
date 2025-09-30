@@ -52,11 +52,11 @@
 }
 .hero {
     width: 100vw;
-    height: 179px;
+    height: 179px; 
 }
 .hero-box {
     width: 100vw;
-    height: 100px;
+    height: 150px;
     padding-left: 100px;
     display: flex;
     flex-direction: row;
@@ -92,4 +92,217 @@ font-size: 44px;
 line-height: 52.01px;
 letter-spacing: 0px;
 vertical-align: middle;
+color: #6E6E73;
+;
+}
+.hero-subhead {
+  width: 226px;
+  height: 100px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.hero_subhead {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.hero-text {
+  width: 175px;
+  height: 100px;
+  display: flex;
+  gap: 16px;
+}
+.hero-subheads {
+  font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+vertical-align: middle;
+}
+.hero-sub {
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+vertical-align: middle;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-thickness: 0%;
+text-decoration-skip-ink: auto;
+color: #0066CC;
+}
+.productslist {
+width: 100vw;
+height: 200px;
+padding-right: 140px;
+padding-left: 140px;
+gap: 12px;
+opacity: 1;
+display: flex;
+flex-direction: row;
+}
+.list-items {
+width: 136px;
+height: 146px;
+padding-top: 16px;
+padding-right: 8px;
+padding-bottom: 16px;
+padding-left: 8px;
+display: flex;
+flex-direction: column;
+gap: 18px;
+opacity: 1;
+border-radius: 18px;
+}
+.list {
+font-family: "Inter" serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+color: #1d1d1f;
+}
+.section {
+width: 100vw;
+height: 558px;
+padding-right: 140px;
+padding-left: 140px;
+display: flex;
+flex-direction: column;
+gap: 24px;
+opacity: 1;
+scroll-snap-align: start;
+}
+.section-title {
+  width: 467px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.section_title {
+font-family: "Inter";
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0px;
+vertical-align: middle;
+  color: #0090F7;
+  background-image: linear-gradient(45deg, #0090F7 23%, #BA62FC 100%, #F2416B 200%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.section_head {
+font-family: "Inter";
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #6E6E73;
+}
+.items-detail {
+  width: 100vw;
+  height: 500px;
+  display: grid;
+  row-gap: 24px;
+  position: relative;
+  grid-template-columns: repeat(1fr, 1fr, 1fr, 1fr);
+}
+.item-section {
+  width: 480px;
+  height: 500px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-image: url(store-card-50-holiday-iphone-pro-202411_GEO_US.png);
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+}
+.item-sections {
+  width: 480px;
+  height: 500px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(store-card-50-holiday-watch-s10-202411.png);
+}
+.item1 {
+  width: 204px;
+  height: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.item_title {
+  /* width: 204px; */
+  /* height: 24px; */
+  font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #b64400;
+
+}
+.item {
+  width: 6px;
+  height: 9px;
+font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 8px;
+line-height: 10px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #b64400;
+/* margin-top: 30px; */
+}
+.item-select {
+  width: 322px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+}
+.item_selects {
+font-family: "Inter";
+font-weight: 700;
+font-style: Bold;
+font-size: 26px;;
+line-height: 32px;
+letter-spacing: 0.2px;
+vertical-align: middle;
+color: #1d1d1f;
+margin-left: 30px;
+}
+.item_selecter {
+font-family: "Inter";
+font-weight: 400;
+font-style: "Regular";
+font-size: 18px;
+line-height: 20px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #1d1d1f;
+margin-left: 30px;
 }
