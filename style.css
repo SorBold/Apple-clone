@@ -37,6 +37,9 @@
   white-space: nowrap;
   text-decoration: none;
 }
+.header_icon--image--menu {
+  display: none;
+}
 .donation-banner {
   width: 100vw;
   height: 49px;
@@ -87,6 +90,7 @@
 .buttons-primary {
   color: #000;
   background-color: white;
+  display: block;
 }
 .button {
   cursor: pointer;
@@ -103,7 +107,7 @@
   border: solid #2997ff 1px;
   background-color: transparent;
 }
-.hero_container-iphone-16-pro {
+.hero_container-iphone-16 {
   background-image: url(./Figure\ \(1\).png);
 }
 .hero_container--gift-magic {
@@ -115,6 +119,7 @@
 }
 .hero-subhead--dark {
   color: #000;
+  display: block;
 }
 .product-container {
   gap: 12px;
@@ -371,4 +376,19 @@
 .dot_buttons {
   width: 12px;
   height: 12px;
+}
+@media(max-width: 768px) {
+  .header-link {
+    display: none;
+  }
+  .header_icon--image--menu {
+    display: block;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero_container--gift-magic {
+    display: none;
+  }
 }
