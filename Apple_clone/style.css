@@ -183,17 +183,17 @@ opacity: 1;
 scroll-snap-align: start;
 }
 .section-title {
-  width: 467px;
+  width: 500px;
   height: 34px;
   display: flex;
   flex-direction: row;
-  gap: 4px;
+  gap: 8px;
 }
 .section_title {
 font-family: "Inter";
 font-weight: 700;
 font-style: Bold;
-font-size: 24px;
+font-size: 20px;
 line-height: 32px;
 letter-spacing: 0px;
 vertical-align: middle;
@@ -474,4 +474,240 @@ letter-spacing: 0px;
 vertical-align: middle;
 color: #1d1d1f;
 margin-left: 30px;
+}
+.product-containers {
+  width: 313px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+}
+.pro {
+width: 230px;
+height: 230px;
+opacity: 1;
+margin-top: 71px;
+margin-left: 41.5px;
+background-image: url(airpods-pro-2-hero-select-202409.png);
+}
+.product-titler {
+  width: 257px;
+  height: 109px;
+  margin-top: 50px;
+  margin-left: 30px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.product-bottoms {
+  width: 257px;
+  height: 10px;
+  margin-top: 20px;
+}
+.product_container {
+   width: 313px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+}
+.pro1 {
+  width: 230px;
+height: 230px;
+opacity: 1;
+margin-top: 71px;
+margin-left: 41.5px;
+background-image: url(airpods-4-anc-select-202409.png);
+}
+.products_container {
+     width: 313px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+}
+.pro2 {
+    width: 230px;
+height: 230px;
+opacity: 1;
+margin-top: 71px;
+margin-left: 41.5px;
+background-image: url(MX2D3.png);
+}
+.section2 {
+width: 100vw;
+height: 600px;
+/* padding-right: 140px; */
+padding-left: 140px;
+display: flex;
+flex-direction: column;
+gap: 24px;
+opacity: 1;
+scroll-snap-align: start;
+}
+.container {
+  width: 100vw;
+  max-width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(store-card-40-holiday-quick-picks-202411.png);
+}
+.containers {
+   width: 313px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+}
+.b1 {
+  width: 230px;
+  height: 230px;
+  margin-top: 71px;
+  margin-left: 41.5px;
+  background-image: url(MYY73.png);
+}
+.b2 {
+  width: 230px;
+  height: 230px;
+  margin-top: 71px;
+  margin-left: 41.5px;
+  background-image: url(homepod-mini-select-white-202110.png);
+}
+.b3 {
+  width: 230px;
+  height: 230px;
+  margin-top: 71px;
+  margin-left: 41.5px;
+  background-image: url(MWK73.png);
+}
+.b4 {
+  width: 230px;
+  height: 230px;
+  margin-top: 71px;
+  margin-left: 41.5px;
+  background-image: url(MUW43.png);
+}
+.section3 {
+  width: 100vw;
+height: 600px;
+/* padding-right: 140px; */
+padding-left: 140px;
+display: flex;
+flex-direction: column;
+gap: 24px;
+opacity: 1;
+scroll-snap-align: start;
+}
+.detial {
+  width: 100vw;
+height: 600px;
+display: flex;
+flex-direction: row;
+gap: 24px;
+opacity: 1;
+scroll-snap-align: start;
+}
+.detial1 {
+  width: 480px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(store-card-50-holiday-delivery-pickup-202411.png);
+}
+.device {
+  width: 305px;
+  height: 130px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.products-titles {
+font-family: "Inter";
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+line-height: 32px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #1d1d1f;
+}
+.boil {
+  height: 500px;
+  width: 650px;
+  background: #FFFFFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.boil > div {
+   height: 240px;
+  width: 313px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 45px;
+}
+.d1 {
+  width: 480px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(store-card-50-holiday-trade-in-202411.png);
+  background-position: center;
+}
+.s1 {
+  font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #6E6E73;
+margin-top: 31px;
+margin-left: 30px;
+}
+.s2 {
+font-family: "Inter";
+font-weight: 700;
+font-style: Bold;
+font-size: 25px;
+line-height: 32px;
+margin-left: 30px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #1d1d1f;
+}
+.d2 {
+  width: 480px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(specialist.jpg);
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
 }
