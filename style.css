@@ -319,11 +319,19 @@
   width: 417px;
   height: 100%;
   position: absolute;
+  background-position: center;
+  background-image: url(small.jpg);
+}
+.slider_title {
+  position: absolute;
+    width: 223px;
+  height: 18px;
 }
 .slider-title {
   color: white;
-  position: absolute;
+  /* position: absolute; */
   margin-bottom: 10px;
+  text-align: center;
 }
 .slider-overlay {
   inset: 0;
@@ -388,7 +396,9 @@
     display: flex;
     justify-content: space-between;
   }
-  .hero_container--gift-magic {
-    display: none;
+}
+@media(max-width: 390px) {
+  .hero_container--iphone-16-pro {
+    background-image: url();
   }
 }
