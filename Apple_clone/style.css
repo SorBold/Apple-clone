@@ -51,7 +51,7 @@
   text-align: center;
 }
 .hero {
-    width: 100vw;
+    width: fit-content;
     height: 179px; 
 }
 .hero-box {
@@ -180,6 +180,7 @@ display: flex;
 flex-direction: column;
 gap: 24px;
 opacity: 1;
+overflow: scroll;
 scroll-snap-align: start;
 }
 .section-title {
@@ -340,7 +341,7 @@ color: #1d1d1f;
 margin-left: 30px;
 }
 .product-detail {
-  width: 100vw;
+  width: fit-content;
   height: 500px;
   display: flex;
   gap: 24px;
@@ -549,10 +550,11 @@ display: flex;
 flex-direction: column;
 gap: 24px;
 opacity: 1;
+overflow: scroll;
 scroll-snap-align: start;
 }
 .container {
-  width: 100vw;
+  width: 400px;
   max-width: 400px;
   height: 500px;
   display: flex;
@@ -607,16 +609,20 @@ display: flex;
 flex-direction: column;
 gap: 24px;
 opacity: 1;
+overflow: scroll;
 scroll-snap-align: start;
 }
 .detial {
   width: 100vw;
-height: 600px;
-display: flex;
-flex-direction: row;
-gap: 24px;
-opacity: 1;
-scroll-snap-align: start;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  opacity: 1;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 .detial1 {
   width: 480px;
@@ -626,6 +632,9 @@ scroll-snap-align: start;
    box-shadow: 2px 4px 12px 0px #00000014;
   border-radius: 18px;
   background-image: url(store-card-50-holiday-delivery-pickup-202411.png);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
 }
 .device {
   width: 305px;
@@ -710,4 +719,234 @@ color: #1d1d1f;
   background-position: center;
   object-fit: cover;
   background-size: cover;
+}
+.section4 {
+  width: 100vw;
+height: 600px;
+/* padding-right: 140px; */
+padding-left: 140px;
+display: flex;
+flex-direction: column;
+gap: 24px;
+opacity: 1;
+overflow: scroll;
+scroll-snap-align: start;
+} 
+.main {
+width: fit-content;
+height: 600px;
+display: flex;
+flex-direction: row;
+gap: 24px;
+opacity: 1;
+overflow: scroll;
+ scroll-snap-type: x mandatory;
+scroll-behavior: smooth;
+scrollbar-width: none;
+/* padding-left: 140px; */
+}
+.menu {
+  width: 480px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(store-card-50-holiday-apple-music-202411.png);
+}
+.menu1 {
+  width: 480px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(store-card-50-holiday-apple-tv-202411.png);
+}
+.s5 {
+font-family: "Inter";
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #f5f5f7;
+padding-left: 30px;
+padding-top: 30px;
+}
+.menu2 {
+  width: 480px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(store-card-50-subscriptions-202108_GEO_US.png);
+}
+.s6 {
+  font-family: "Inter";
+font-weight: 700;
+font-style: Bold;
+font-size: 25px;
+line-height: 32px;
+margin-top: 60px;
+margin-left: 30px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #1d1d1f;
+}
+.menu3 {
+  width: 480px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(store-card-50-apple-intelligence-202410_GEO_US.png);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.section5 {
+    width: 100vw;
+  height: 600px;
+padding-left: 140px;
+display: flex;
+flex-direction: column;
+gap: 24px;
+opacity: 1;
+overflow: scroll;
+scroll-snap-align: start;
+}
+.d5 {
+    width: 831px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.manu {
+  width: fit-content;
+height: 600px;
+display: flex;
+flex-direction: row;
+gap: 24px;
+opacity: 1;
+overflow: scroll;
+ scroll-snap-type: x mandatory;
+scroll-behavior: smooth;
+scrollbar-width: none;
+}
+.last {
+width: 400px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(iphone-card-40-carriertrade-202409.png);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.last1 {
+  width: 400px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(store-card-40-bts-edu-macbook-air-ipad-air-202406.png);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.last2 {
+   width: 400px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(store-card-40-refurb-202408.png);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.last3 {
+   width: 400px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(iphone-card-40-business-202409.png);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.n1 {
+font-family: "Inter";
+font-weight: 700;
+font-style: Bold;
+font-size: 26px;
+line-height: 32px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #FFFFFF;
+padding-left: 30px;
+}
+.last4 {
+   width: 400px;
+  height: 500px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+   box-shadow: 2px 4px 12px 0px #00000014;
+  border-radius: 18px;
+  background-image: url(govi.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.cart {
+  width: 100vw;
+  height: 150px;
+  padding-left: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.buttons {
+  font-family: "Inter";
+font-weight: 700;
+font-style: Bold;
+font-size: 26px;
+line-height: 32px;
+letter-spacing: 0px;
+vertical-align: middle;
+padding-top: 50px;
+color: #1d1d1f;
+padding-left: 30px;
+}
+.buttoner {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.button-select {
+  width: 125px;
+  height: 40px;
+  border-radius: 999px;
+  color: #1d1d1f;
+  background-color: white;
 }
